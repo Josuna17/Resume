@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Osuna - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f8ff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            background-color: #ffffff;
+            transition: background-color 0.3s;
+        }
+        h1, h2 {
+            color: #34495e;
+            transition: color 0.3s;
+        }
+        h2 {
+            border-bottom: 3px solid #1abc9c;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #dcdcdc;
+            transition: background-color 0.3s;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: white;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        table, th, td {
+            border: 1px solid #bdc3c7;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #1abc9c;
+            color: white;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 15px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2c3e50;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .highlight {
+            color: #e67e22;
+        }
+        
+        body.dark-mode {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        .container.dark-mode {
+            background-color: #34495e;
+        }
+        h1.dark-mode, h2.dark-mode {
+            color: #ecf0f1;
+        }
+        .section.dark-mode {
+            background-color: #2c3e50;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        th.dark-mode {
+            background-color: #16a085;
+        }
+        td.dark-mode {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        .highlight.dark-mode {
+            color: #f39c12;
+        }
+        
+        
+        .dark-mode-toggle {
+            background-color: #16a085;
+            color: white;
+            padding: 15px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: fixed;
+            top: 40px;
+            right: 100px;
+            z-index: 999;
+            width: auto;
+        }
+
+        .dark-mode-toggle:hover {
+            background-color: #1abc9c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Jonathan T. Osuna</h1>
+                <p><strong>Address: </strong><span class="highlight">Brgy. San Ignacio San Pablo City, Laguna 4000</span></p>
+                <p><strong>Email: </strong><span class="highlight">osuna17jonathan@gmail.com</span><strong> | Phone: </strong><span class="highlight">09277300276</span></p>
+            </div>
+            <img src="1x1.jpg" alt="Jonathan T. Osuna" class="profile-pic">
+        </div>
+        
+        <div class="section personal-info">
+            <h2>Personal Information</h2>
+            <table>
+                <tr><th>Date of Birth</th><td>July 17, 2002</td></tr>
+                <tr><th>Place of Birth</th><td>San Pablo City, Laguna</td></tr>
+                <tr><th>Age</th><td>22</td></tr>
+                <tr><th>Gender</th><td>Male</td></tr>
+                <tr><th>Civil Status</th><td>Single</td></tr>
+                <tr><th>Height</th><td>5'8"</td></tr>
+                <tr><th>Weight</th><td>60 kg</td></tr>
+                <tr><th>Citizenship</th><td>Filipino</td></tr>
+                <tr><th>Religion</th><td>Roman Catholic</td></tr>
+            </table>
+        </div>
+        
+        <div class="section education">
+            <h2>Education</h2>
+            <table>
+                <tr><th>Level</th><th>School</th><th>Year</th><th>Details</th></tr>
+                <tr><td><strong>Tertiary</strong></td><td>Pamantasan ng Lungsod ng San Pablo</td><td>2022 - Present</td><td>Bachelor of Science in Information Technology</td></tr>
+                <tr><td><strong>Senior High School</strong></td><td>Crecencia Drusila Lopez Senior High School</td><td>2018 - 2020</td><td>Computer System Servicing (CSS)</td></tr>
+                <tr><td><strong>Junior High School</strong></td><td>San Jose National High School</td><td>2014 - 2018</td><td></td></tr>
+                <tr><td><strong>Primary</strong></td><td>San Pablo Central Elementary School</td><td>2008 - 2014</td><td></td></tr>
+            </table>
+        </div>
+        
+        <div class="section experience">
+            <h2>Work Experience/Training</h2>
+            <p><strong>Work Immersion:</strong> Seven Lakes Ultimate Business Solutions (UBS) Institute, Inc.</p>
+            <p>San Pablo, Laguna - March 2020</p>
+            <ul>
+                <li>Troubleshooting and repairing of computers</li>
+            </ul>
+        </div>
+        
+        <div class="section skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Sufficient knowledge on troubleshooting and repairing computers</li>
+                <li>Sufficient computer programming knowledge</li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()"><strong>Dark Mode</strong></button>
+
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            const container = document.querySelector('.container');
+            const headers = document.querySelectorAll('h1, h2');
+            const sections = document.querySelectorAll('.section');
+            const ths = document.querySelectorAll('th');
+            const tds = document.querySelectorAll('td');
+            const highlights = document.querySelectorAll('.highlight');
+
+            body.classList.toggle('dark-mode');
+            container.classList.toggle('dark-mode');
+            headers.forEach(header => header.classList.toggle('dark-mode'));
+            sections.forEach(section => section.classList.toggle('dark-mode'));
+            ths.forEach(th => th.classList.toggle('dark-mode'));
+            tds.forEach(td => td.classList.toggle('dark-mode'));
+            highlights.forEach(highlight => highlight.classList.toggle('dark-mode'));
+        }
+    </script>
+</body>
+</html>
